@@ -1,0 +1,51 @@
+essChat: false
+silent: false
+caps-ratio: 0.85
+symbol-ratio: 0.85
+chat-colors:
+    - a
+    - d
+    - 6
+annihilation-immunity:
+    - BrightLight_
+debug: false
+chat-color-warning: c
+chat-color-ok: a
+name1: Алиса
+name2: Алисы
+name-color: 8
+prefix: Помощница
+prefix-color: 4
+global-chat-prefix: G
+global-chat-prefix-color: 6
+main-world: world
+restart-period: 240
+tospawn-playernames:
+cooldown:
+    answers: 20
+    hello: 35
+    warn: 3000
+    votesun-global: 300
+    voteday-global: 300
+    votesun-personal: 600
+    voteday-personal: 600
+tempmute:
+    flood: 1800
+    symbol-flood: 1800
+    advertisement: 1800
+    caps: 1800
+    profanity: 7200
+    double-warn: 7200
+duration:
+    votesun: 20
+    voteday: 20
+success-ratio:
+    votesun: 0.6
+    voteday: 0.6
+success-advantage:
+    votesun: 2
+    voteday: 2
+
+
+mute-command: 'tempmute %s %s %s'
+warn-command: 'warn %s %s'

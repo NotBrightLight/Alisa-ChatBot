@@ -1,0 +1,60 @@
+name: BrightAlisa
+main: ru.brightlight.alisa.BrightAlisa
+version: 1.0.2
+softdepend: [Playtime]
+author: BrightLight
+
+permissions:
+    alisa.*:
+        description: asd
+    alisa.settings:
+        default: op
+
+
+commands:
+    inf:
+        description: инфа по пунктам правил
+        permission:
+        usage: /<command> [пункт правил]
+    mods:
+        description: список модераторов онлайн
+        permission:
+        usage: /<command>
+    alisa:
+        description: настройки
+        permission: alisa.settings
+        usage: /<command> [arguments]
+        aliases: [alice, al]
+    votesun:
+        description: начать голосование за выключение дождя
+        permission:
+        usage: /<command>
+    voteday:
+        description: начать голосование за смену времени суток на утро
+        permission:
+        usage: /<command>
+    "yes":
+        description: отдать голос "за" в голосовании
+        permission:
+        usage: /<command>
+    "no":
+        description: отдать голос "против" в голосовании
+        permission:
+        usage: /<command>
+    colors:
+        description: список цветовых котов чата
+        permission:
+        usage: /<command>
+    ahelp:
+        description: список команд для пользователей
+        permission:
+        usage: /<command>
+    server:
+        description: время до рестарта сервера
+        permission:
+        usage: /<command>
+        aliases: [aserver]
+    aseen:
+        description: аналог /seen для игроков
+        permission:
+        usage: /<command> [name]
